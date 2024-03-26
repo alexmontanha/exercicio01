@@ -18,6 +18,8 @@ public class App {
             
         } while (nota < 0 || nota > 10);
 
+        System.out.print("Nota válida: " + nota);
+
         sc.close();
     }
 }
